@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #f2f2f2;
+    color: #333333;
+    font-family: Arial, sans-serif;
+  }
+  
+  .cabecalho {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 140px;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #ccd2d3;
+    background-color: #333333;
+    border-radius: 15PX;
+   
+  }
+  
+  .resultado {
+    background-color: #333333;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+    text-align: center;
+    background-color: #ffffff;
+    color: #333333;
+    width: auto;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  b {
+    padding-left: 6px;
+  }
+  
+  .result:hover {
+    background-color: #000000;
+    color: #ffffff;
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 38px;
+    transition: font-size 0.2s ease-out;
+  }
+  
+  #ad,
+  #sub,
+  #raz,
+  #exp,
+  #div,
+  #multi {
+    border-radius: 12px;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    border-style: none;
+    align-self: center;
+    transition: background-color 0.3s ease-out, font-size 0.2s ease-out;
+    margin-top: 10px;
+    background-color: #ffffff;
+    color: #333333;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  #ad:hover,
+  #sub:hover,
+  #raz:hover,
+  #exp:hover,
+  #div:hover,
+  #multi:hover {
+    color: #ffffff;
+    background-color: #333333;
+    font-size: 26px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+  }
+  
+  .formulario input[type="text"],
+  .formulario input[type="number"] {
+    border: 1px solid #333333;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+  }
+  
+  .formulario label {
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+  }
+  
+  #form1 {
+    background-color: #ffffff;
+    width: 325px;
+    padding: 20px;
+    border-radius: 8px;
+    color: #333333;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border: 3px solid black;
+    
+  }
+
+  body {
+    background-image: url('../Thorfinn.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    MARGIN-BOTTOM: 40%;
+MARGIN-RIGHT: 25%;
+MARGIN-LEFT: 25%  }
+
+
